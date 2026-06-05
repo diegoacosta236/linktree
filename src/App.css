@@ -48,7 +48,6 @@ a, a:visited, a:hover, a:active {
 }
 
 .page-container {
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
