@@ -25,7 +25,7 @@ function App() {
 
         {/* Profile Information */}
         <div className='info-section'>
-          <div className='pfp'><img src='/pfp.jpg' alt='Diego Acosta'/></div>
+          <div className='pfp'><img src={`${import.meta.env.BASE_URL}pfp.jpg`} alt='Diego Acosta'/></div>
           <h1>Diego Acosta</h1>
           <p>Recent CSU, Stanislaus Graduate. Computer Science major with a minor in Biology.</p>
         </div>
@@ -35,7 +35,7 @@ function App() {
 
             <a 
               className='link-card' 
-              href='/resume.pdf' 
+              href={`${import.meta.env.BASE_URL}resume.pdf`} 
               target='_blank'>
                 <FaPaperclip/>
                 Resume
